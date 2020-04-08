@@ -1,0 +1,32 @@
+{
+  "name": "object-uncapitalize",
+  "version": "1.0.0",
+  "description": "Library to uncapitalize plain or complex objects and arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandourbina/object-uncapitalize.git"
+  },
+  "keywords": [
+    "node",
+    "lodash",
+    "javascript",
+    "uncapitalize"
+  ],
+  "author": "Raul Armando Gonzalez Urbina <armandourbina@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armandourbina/object-uncapitalize/issues"
+  },
+  "homepage": "https://github.com/armandourbina/object-uncapitalize#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  },
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.transform": "^4.6.0"
+  }
+}
