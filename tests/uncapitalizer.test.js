@@ -1,11 +1,11 @@
-const uncapitalizer = require('../src/uncapitalizer')
+const uncapitalizer = require('../src/uncapitalizer');
 describe('Uncapitalizer', () => {
 
   it('Should uncapitalize all the keys in a plain object', () => {
     let testObject = {
       CapitalKey1: 'test capital key',
       CapitalKey2: 'test capital key'
-    }
+    };
 
     testObject = uncapitalizer(testObject);
 
@@ -79,7 +79,7 @@ describe('Uncapitalizer', () => {
     let expectedObject = {
       1: 'numeric key',
       2: 'numeric key'
-    }
+    };
 
     testObject = uncapitalizer(testObject);
 
@@ -91,8 +91,6 @@ describe('Uncapitalizer', () => {
     let testSingleNumber = 3322323;
     let testBooleanValue = true;
     let testNullValue =  null;
-
-
 
     testSingleString = uncapitalizer(testSingleString);
     testSingleNumber = uncapitalizer(testSingleNumber);
