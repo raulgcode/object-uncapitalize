@@ -86,21 +86,4 @@ describe('Uncapitalizer', () => {
     expect(testObject).toEqual(expectedObject);
   });
 
-  it('Should return same value when it is not object neither array', ()=>{
-    let testSingleString = 'Test string';
-    let testSingleNumber = 3322323;
-    let testBooleanValue = true;
-    let testNullValue =  null;
-
-    testSingleString = uncapitalizer(testSingleString);
-    testSingleNumber = uncapitalizer(testSingleNumber);
-    testBooleanValue = uncapitalizer(testBooleanValue);
-    testNullValue = uncapitalizer(testNullValue);
-
-    expect(testSingleString).toEqual('Test string');
-    expect(testSingleNumber).toEqual(3322323);
-    expect(testBooleanValue).toEqual(true);
-    expect(testNullValue).toEqual(null);
-  });
-
 });
