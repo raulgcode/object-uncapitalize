@@ -1,6 +1,6 @@
 {
   "name": "object-uncapitalize",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Library to uncapitalize plain or complex objects and arrays",
   "main": "index.js",
   "scripts": {
