@@ -14,7 +14,9 @@
     "node",
     "lodash",
     "javascript",
-    "uncapitalize"
+    "uncapitalize",
+    "deep",
+    "recursive"
   ],
   "author": "Raul Armando Gonzalez Urbina <armandourbina@gmail.com>",
   "license": "ISC",
